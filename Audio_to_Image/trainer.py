@@ -8,7 +8,8 @@ from torch import nn
 import torch.nn.functional as F 
 from torch.utils.data  import Dataset, DataLoader
 import torch.distributed as dist
-from tensorboardX import SummaryWriter
+#from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 from collections import OrderedDict
 import os.path as osp
 from copy import deepcopy
