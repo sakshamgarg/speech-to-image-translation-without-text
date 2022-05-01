@@ -14,7 +14,7 @@ import argparse
 # set up Python environment: numpy for numerical routines, and matplotlib for plotting
 import numpy as np
 import h5py
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import time
 import glob
 

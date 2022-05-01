@@ -10,6 +10,7 @@ from torch.utils.data  import Dataset, DataLoader
 import torch.distributed as dist
 #from tensorboardX import SummaryWriter
 from torch.utils.tensorboard import SummaryWriter
+# conda install -y -c conda-forge tensorboard
 from collections import OrderedDict
 import os.path as osp
 from copy import deepcopy
